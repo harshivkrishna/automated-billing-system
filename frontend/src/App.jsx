@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import LiveView from './components/LiveView'
 import InvoiceSystem from './components/InvoiceSystem'
-
+import './App.css'
 function App() {
   const [connectionError, setConnectionError] = useState(false)
   const [theme, setTheme] = useState('dark')
